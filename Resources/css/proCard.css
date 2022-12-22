@@ -1,0 +1,59 @@
+.container{
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+.proCardLeft{
+    position: relative;
+    min-width: 35%;
+    background-image: linear-gradient(to right, rgba(0,0,0,0.1),rgba(0,0,0,0));
+}
+.proCardLeft::before{
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 600px;
+    height: 600px;
+    background-image: url("https://images.unsplash.com/photo-1527525443983-6e60c75fff46?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=385&q=80");
+    background-position: 50%;
+    background-size: 100%;
+    background-color: rgba(255,255,255,0.6);
+    /* background-blend-mode: lighten; */
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    transform: translate(-15%,-10%);
+}
+.proCardRight{
+    padding: 50px;
+    background-image: linear-gradient(to left, rgba(0,0,0,0.1),rgba(0,0,0,0));
+}
+.proCardRight>div{
+    margin: 20px;
+    padding: 10px;
+}
+.proCardHeading{
+    font-size: 32px;
+}
+.proCardSubHeading{
+    font-size: 24px;
+}
+.proCardContainer{
+    display: flex;
+}
+.proCardLink{
+    min-width: 200px;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    background: rgba(0,255,0,0.2);
+}
+@media screen and (max-width: 950px) {
+    .proCardLeft{
+        width: 0;
+        display: none;
+    }
+    .proCardRight{
+    }
+}
