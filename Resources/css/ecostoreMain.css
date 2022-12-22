@@ -35,7 +35,7 @@
 .wrapperTwo .cards .card .image{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     width: 100%;
-    min-width: 280px;
+    min-width: 380px;
     height: 200px; /* remove when image is added */
     background-color: rgb(93, 167, 99);
 }

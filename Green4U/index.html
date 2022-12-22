@@ -4,166 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EcoIN</title>
-    <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-        />
-        <link rel="stylesheet" href="/Resources/css/global.css">
-        <link rel="stylesheet" href="/Resources/css/navCss.css">
-        <link rel="stylesheet" href="/Resources/css/proCard.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Resources/css/global.css">
+    <link rel="stylesheet" href="/Resources/css/green4uMain.css">
 </head>
 <body>
+    <div class="intro">
+        <img src="https://images.pexels.com/photos/1561322/pexels-photo-1561322.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="background">
+        <img class="gWicon" src="https://www.svgrepo.com/show/55631/global-warming.svg" alt="">
+        <h1>HOW WE CALCULATE GHG EMMISION?</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi architecto molestiae quas veritatis, a dolorum voluptatem cumque error totam. Itaque ullam sint suscipit cum nihil distinctio quis accusamus dolores maxime earum ad debitis quod harum voluptatum consequatur, deleniti sit eum illum at totam obcaecati. Cupiditate at eos vel placeat facere.</p>
+    </div>
+    <div class="climateContainer">
+        <div class="cont details">
+            <h2>Do you know?</h2><br>
+            <p>~ CO<small>2</small> accounts for over 60 per cent of green house gases released in India. Most of this comes from the energy sector burning fossil fuels such as coal, oil and natural gas.</p><br>
+            <p>~ India emitted 16 million tonnes of methane in 1990, and 24 million tonnes in 2000 — a little under 35 per cent of the country’s overall greenhouse gas emissions.</p>
+        </div>
+        <div class="cont image">
+            <img src="https://aeee.in/wp-content/uploads/2021/03/fig2.jpg" alt="">
+            <p>Figure shows sector-wise CO2 emission share in India</p>
+            <p> Source: CO2 Emissions from Fuel Combustion, IEA 2021</p>
+        </div>
+    </div>
+    <div class="process">
         
-<!-- Navbar -->
-<div class="wrapper">
-    <nav>
-    <input type="checkbox" id="show-search" />
-    <input type="checkbox" id="show-menu" />
-    <label for="show-menu" class="menu-icon"
-        ><i class="fas fa-bars"></i
-    ></label>
-    <div class="content">
-        <ul class="links">
-        <li><a href="#">Home</a></li>
-        <li>
-            <a href="#" class="desktop-link">Green 4 U</a>
-            <input type="checkbox" id="show-services" />
-            <label for="show-services">Green 4 U</label>
-            <ul>
-            <li><a href="#"> Green Book </a></li>
-            <li><a href="#"> Green Link </a></li>
-            <li><a href="#"> Green Save </a></li>
-            </ul>
-        </li>
-        <li>
-            <a href="#" class="desktop-link">Eco Store</a>
-            <input type="checkbox" id="show-store" />
-            <label for="show-store">Eco Store</label>
-            <ul>
-            <li><a href="#"> Buy New </a></li>
-            <li><a href="#"> Recycle </a></li>
-            </ul>
-        </li>
-        <li>
-            <a href="#" class="desktop-link">Educate</a>
-            <input type="checkbox" id="show-edu" />
-            <label for="show-edu">Educate</label>
-            <ul>
-            <li><a href="#"> Blogs </a></li>
-            <li><a href="#"> videos </a></li>
-            </ul>
-        </li>
-        <li><a href="#">Login/Signup</a></li>
-        
-        </ul>
-        <div class="logo"><a href="#">Eco<font color="#00ffd9">IN</font></a></div>
     </div>
-    </nav>
-</div>
-<div style="height: 70px;"> </div>
-<!-- End Navbar-->
-
-<!-- About Site -->
-<style>
-.showBox{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    height: 700px;
-    color: aliceblue;
-}
-.showBox::before{
-    content: " ";
-    z-index: -1;
-    position: absolute;
-    top: 0; left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url("https://images.unsplash.com/photo-1498925008800-019c7d59d903?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80");
-    background-position: 50%;
-    background-size: 100%;
-    background-color: rgba(0,0,0,0.6);
-    background-blend-mode: darken;
-}
-.showBox h1{
-    font-size: 62px;
-    margin-bottom: 30px;
-}
-</style>
-<div class="showBox container">
-    <div>
-        <h1>Eco<font color="#00ffd9">IN</font></h1>
-        <h3>We are the change !</h3>
-        <p>
-            Find all the services you need for yourself or your business right here. Experience the revolution. Be the revolution.
-        </p>
-    </div>
-</div>
-
-<!-- ProCards for different sections of site -->
-<a href="/Green4U/index.html">
-<div class="container">
-    <div class="proCardLeft"></div>
-    <div class="proCardRight">
-        <div class="proCardHeading">
-            Green 4 U
-        </div>
-        <div class="proCardSubHeading">
-            Get personalized recommendations for you or your company
-        </div>
-        <div class="proCardPara">
-            Use our Greenbook to calculate your carbon footprint.<br><br>
-            With our Greenlink, find your recommended services.
-        </div>
-        <div class="proCardContainer">
-            <div class="proCardLink">Greenbook <i class="fas fa-link" style="float: right; line-height: 1.5rem;"></i></div>
-            <div class="proCardLink">GreenLink <i class="fas fa-link" style="float: right; line-height: 1.5rem;"></i></div>
-        </div>
-    </div>
-</div>
-<div class="container">
-    <div class="proCardRight" style="background-image: linear-gradient(to right, rgba(0,0,0,0.1),rgba(0,0,0,0));">
-        <div class="proCardHeading">
-            Community
-        </div>
-        <div class="proCardSubHeading">
-            We provide you our community at its best
-        </div>
-        <div class="proCardPara">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores reiciendis consectetur nesciunt, voluptate unde vitae accusamus suscipit quaerat Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima atque distinctio itaque voluptatem magni, quod optio vero repudiandae recusandae harum natus ducimus ipsa dolore esse repellendus accusantium qui nihil dolorem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis veritatis temporibus voluptates nisi ullam quidem nemo a, nulla nostrum enim quod dicta architecto voluptatem reprehenderit amet, magnam non optio odit?
-        </div>
-        <div class="proCardContainer">
-            <div class="proCardLink">Link1</div>
-            <div class="proCardLink">Link2</div>
-        </div>
-    </div>
-    <div class="proCardLeft" style="background-image: linear-gradient(to left, rgba(0,0,0,0.1),rgba(0,0,0,0));"></div>
-</div>
-<div class="container">
-    <div class="proCardLeft"></div>    
-    <div class="proCardRight">
-        <div class="proCardHeading">
-            Community
-        </div>
-        <div class="proCardSubHeading">
-            We provide you our community at its best
-        </div>
-        <div class="proCardPara">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores reiciendis consectetur nesciunt, voluptate unde vitae accusamus suscipit quaerat Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima atque distinctio itaque voluptatem magni, quod optio vero repudiandae recusandae harum natus ducimus ipsa dolore esse repellendus accusantium qui nihil dolorem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis veritatis temporibus voluptates nisi ullam quidem nemo a, nulla nostrum enim quod dicta architecto voluptatem reprehenderit amet, magnam non optio odit?
-        </div>
-        <div class="proCardContainer">
-            <div class="proCardLink">Link1</div>
-            <div class="proCardLink">Link2</div>
-        </div>
-    </div>
-</div>
-
-      </body>
-    </html>
-    
-
-
 </body>
 </html>
